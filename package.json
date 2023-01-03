@@ -2,12 +2,12 @@
   "name": "test-button",
   "private": true,
   "version": "0.0.0",
-  "main": "./dist/test-button.umd.js",
-  "module": "./dist/test-button.es.js",
+  "main": "./dist/test-button.umd.cjs",
+  "module": "./dist/test-button.js",
   "exports": {
     ".": {
-      "import": "./dist/test-button.es.js",
-      "require": "./dist/test-button.umd.js"
+      "import": "./dist/test-button.js",
+      "require": "./dist/test-button.umd.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
